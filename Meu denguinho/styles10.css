@@ -1,0 +1,218 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    background-color: white;
+}
+
+.titulo1 {
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline 3px black;
+    margin-top: 280px;
+}
+
+.div1 {
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+
+    & .div1_1 {
+        & .tit1 {
+            font-size: 25px;
+        }
+        & .nome {
+            border: 2px solid black;
+            border-radius: 5px;
+            width: 54vh;
+            height: 05vh;
+            font-size: 25px;
+        }
+
+        .email {
+            border: 2px solid black;
+            border-radius: 5px;
+            width: 54vh;
+            height: 05vh;
+            font-size: 25px;
+        }
+
+        .comentario {
+            border: 2px solid black;
+            border-radius: 5px;
+            width: 54vh;
+            height: 20vh;
+            font-size: 25px;
+        }
+
+        .botao {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            & .apertar{
+                border-radius: 5px;
+                font-size: 25px;
+                font-weight: bold;
+                background-color: black;
+                color: white;
+                width: 110px;
+                height: 50px;
+                margin-top: 30px;
+                border: none;
+
+                &:hover {
+                    border: 2px solid black;
+                    border-radius: 5px;
+                    background-color: rgb(235, 133, 0);
+                    font-weight: bold;
+                    color: black;
+                }
+            }
+        }
+    }
+} */
+
+/* footer {
+    & .conteudo {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    & .atalhosfooter {
+        margin-top: 30px;
+    }
+} */
+    
+/* style.css */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.nome {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.apertar {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    color: #4CAF50;
+} */
+
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chat-container {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.chat-box {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.message {
+    background-color: #e4e4e4;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}

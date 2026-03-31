@@ -1,0 +1,319 @@
+.bib {
+    font-size: 70px;
+    text-decoration: underline 3px black;
+    text-align: center;
+    margin-top: 320px;
+}
+
+.titulo1, .titulo2 {
+    font-size: 48px;
+    margin-left: 40px;
+    margin-top: 60px;
+    text-decoration: underline 3px black;
+    display: flex;
+}
+
+.autores1 {
+    margin-top: 50px;
+    text-decoration: none;
+
+    .matheus {
+        .nome{
+            font-size: 40px;
+        }
+
+        .apresentacao{
+            margin-top: 50px;
+            font-size: 28px;
+        }
+
+        .image_matheus {
+            float: left;
+            margin-right: 15px;
+            border: 2px black solid;
+        }
+    }
+
+    .gabriel {
+        margin-top: 50px;
+
+        .nome{
+            font-size: 40px;
+        }
+
+        .apresentacao{
+            margin-top: 50px;
+            font-size: 28px;
+        }
+
+        .image_gabriel {
+            float: left;
+            margin-right: 15px;
+            border: 2px black solid;
+        }
+    }
+
+    .renan {
+        margin-top: 78px;
+
+        .nome{
+            font-size: 40px;
+        }
+
+        .apresentacao{
+            margin-top: 50px;
+            font-size: 28px;
+        }
+
+        .image_renan {
+            float: left;
+            margin-right: 15px;
+            border: 2px black solid;
+        }
+    }
+
+    .allan {
+        margin-top: 50px;
+
+        .nome{
+            font-size: 40px;
+        }
+
+        .apresentacao{
+            margin-top: 50px;
+            font-size: 28px;
+        }
+
+        .image_allan {
+            float: left;
+            margin-right: 15px;
+            border: 2px black solid;
+        }
+    }
+
+    .pedro {
+        margin-top: 50px;
+
+        .nome{
+            font-size: 40px;
+        }
+
+        .apresentacao{
+            margin-top: 50px;
+            font-size: 28px;
+        }
+
+        .image_pedro {
+            float: left;
+            margin-right: 15px;
+            border: 2px black solid;
+        }
+    }
+
+    .julia {
+        margin-top: 50px;
+
+        .nome{
+            font-size: 40px;
+            margin-left: 15px;
+        }
+
+        .apresentacao{
+            margin-top: 50px;
+            font-size: 28px;
+            margin-left: 15px;
+        }
+        
+        .image_julia {
+            float: left;
+            margin-right: 15px;
+            border: 2px black solid;
+        }
+    }
+}
+
+.referencias {
+    margin-top: 20px;
+    
+    .links {
+        font-size: 30px;
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+        
+
+        &:hover {
+            color: rgb(235, 133, 0);
+        }
+    }
+}
+
+@media screen and (max-width: 1020px) {
+
+    .bib {
+        font-size: 45px;
+        text-align: center;
+        margin-top: 270px;
+    }
+
+    .titulo1, .titulo2 {
+        font-size: 38px;
+        margin-left: 40px;
+        margin-top: 60px;
+        display: flex;
+    }
+
+    .autores1 {
+        font-size: 25px;
+
+        .matheus {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+
+            .nome {
+                margin-top: 30px;
+                margin-right: 10px;
+                margin-left: 10px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .apresentacao {
+                margin-top: 20;
+                font-size: 28px;
+                text-align: left;
+                margin-left: 15px;
+                margin-right: 10px;
+            }
+        }
+
+        .gabriel {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+
+            .nome {
+                margin-top: 30px;
+                margin-right: 10px;
+                margin-left: 10px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .apresentacao {
+                margin-top: 20px;
+                font-size: 28px;
+                text-align: left;
+                margin-left: 15px;
+                margin-right: 10px;
+            }
+        }
+
+        .pedro {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+
+            .nome {
+                margin-top: 30px;
+                margin-right: 10px;
+                margin-left: 10px;
+                font-size: 30px; 
+                text-align: center;
+            }
+
+            .apresentacao {
+                margin-top: 20px;
+                font-size: 28px;
+                text-align: left;
+                margin-left: 15px;
+                margin-right: 10px;
+            }
+        }
+
+        .renan {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+
+            .nome {
+                margin-top: 30px;
+                margin-right: 10px;
+                margin-left: 10px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .apresentacao {
+                margin-top: 20px;
+                font-size: 28px;
+                text-align: left;
+                margin-left: 15px;
+                margin-right: 10px;
+            }
+        }
+
+        .allan {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+
+            .nome {
+                margin-top: 30px;
+                margin-right: 10px;
+                margin-left: 10px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .apresentacao {
+                margin-top: 20px;
+                font-size: 28px;
+                text-align: left;
+                margin-left: 15px;
+                margin-right: 10px;
+            }
+        }
+
+        .julia {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+
+            .nome {
+                margin-top: 30px;
+                margin-right: 10px;
+                margin-left: 10px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .apresentacao {
+                margin-top: 20px;
+                font-size: 28px;
+                text-align: left;
+                margin-left: 15px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .referencias {
+        .links {
+            font-size: 25px;
+        }
+    }
+}

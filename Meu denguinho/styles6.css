@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(124, 124, 124);
+}
+
+.container {
+    background-color: rgb(124, 124, 124);
+    display: flex;
+    width: 100vw;
+    height: 100vh; 
+    flex-direction: row-reverse;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    & .item {
+        background-color: yellowgreen;
+        width: 200px;
+        height: 200px;
+        border: 4px white solid;
+        margin: 10px;
+    }
+}
+
+.item {
+    background-color: yellowgreen;
+    width: 500px;
+    height: 500px;
+    border: 4px white solid;
+    margin: 10px;
+}
